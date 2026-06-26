@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="lpSBPTwMAoJ44lyqhoai">
+    <mxGraphModel dx="1407" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-8" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" target="Z9x92pmpZVLByZmB7NZN-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;p&gt;Host Machine&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-12" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" target="Z9x92pmpZVLByZmB7NZN-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="VirtualBox" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-14" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" target="Z9x92pmpZVLByZmB7NZN-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Debian Server&lt;/div&gt;&lt;div&gt;(Virtual Machine)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" value="Docker" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-15" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-11" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="550" />
+            </Array>
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="570" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-16" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-13" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="650" />
+            </Array>
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="270" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="366" y="653" as="sourcePoint" />
+            <mxPoint x="366" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-18" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-13" style="endArrow=classic;html=1;rounded=0;exitX=0.858;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="453" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-19" edge="1" parent="1" source="Z9x92pmpZVLByZmB7NZN-13" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="650" />
+            </Array>
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="550" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SSH Access" vertex="1">
+          <mxGeometry height="40" width="120" x="570" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uptime Kuma" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Wiki.js" vertex="1">
+          <mxGeometry height="40" width="60" x="330" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="40" width="60" x="430" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Nginx" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9x92pmpZVLByZmB7NZN-25" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontFamily=Lucida Console;fontSize=44;" value="HOME-IT-LAB" vertex="1">
+          <mxGeometry height="80" width="760" x="30" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
